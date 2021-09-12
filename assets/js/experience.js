@@ -3,7 +3,7 @@ AOS.init()
 const experiencecards = document.querySelector('.experience-cards')
 const exp = [
   {
-    title: 'Software Development Intern',
+    title: 'Software Development Internship',
     cardImage: 'assets/images/experience-page/jpm.jpg',
     place: 'JPMorgan Chase and Co.',
     time: '(May, 2021 - July,2021)',
@@ -22,7 +22,7 @@ const showCards = () => {
         <article class="card-body">
           <header>
             <div class="title">
-              <h3>${title}</h3>
+              <h4>${title}</h4>
             </div>
             <p class="meta">
               <span class="pre-heading">${place}</span><br>

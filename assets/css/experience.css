@@ -77,8 +77,7 @@ section > div {
 .main,
 .main1 {
   width: 100%;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding: 4rem;
   margin: 0 auto;
 }
 
@@ -199,7 +198,7 @@ ul ol {
 }
 
 @media only screen and (min-width: 1280px) {
-  .card1 h3 {
+  .card1 h4 {
     font-size: 32px;
   }
 }
@@ -210,7 +209,7 @@ ul ol {
     max-height: 70vh;
   }
 
-  .card1 h3 {
+  .card1 h4 {
     font-size: calc(100% + 1vw);
   }
 
@@ -267,22 +266,21 @@ ul ol {
 
 .card-body .pre-heading {
   color: var(--meta-col);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .card-body .meta {
   color: var(--meta-col);
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .card-body .author {
   font-size: 12px;
 }
 
-.card-body h3 {
-  font-size: 2rem;
+.card-body h4 {
   margin-top: 5px;
   margin-bottom: 5px;
   color: var(--head-col);
@@ -302,9 +300,6 @@ ul ol {
 .main a {
   text-decoration: none;
 }
-
-
-
 
 #tie {
   animation: tie 2s infinite ease-in-out;
