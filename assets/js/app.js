@@ -990,7 +990,7 @@ let footer = $(`
             </svg>
           </div>
           <div class="rounded-social-buttons tag text-center">
-            <a class="social-button linkedin" href="" target="_blank">
+            <a class="social-button linkedin" href="https://www.linkedin.com/in/ashrita-agarwal/" target="_blank">
               <!-- svg code for linkedin icon -->
               <svg
                 class="linkedin-icon-footer"
@@ -1011,7 +1011,7 @@ let footer = $(`
               </svg>
             </a>
 
-            <a class="social-button github" href="#" target="_blank">
+            <a class="social-button github" href="https://github.com/ashrita-ag" target="_blank">
               <!-- SVG code for Github icon -->
               <svg
                 class="github-icon-footer"
